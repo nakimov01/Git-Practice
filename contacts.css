@@ -1,0 +1,122 @@
+@import "fonts/fonts.css";
+@import "vars.css";
+body {
+background-color: var(--bg-color);
+font-family: "Raleway-reg";
+    margin: 0;
+    font-size: 25px;
+}
+
+
+.main__wrap {
+    padding: 0.1px 70px;
+    padding-bottom: 50px;
+}
+
+.main__title-contacts {
+    text-align: center;
+
+    font-size: 46px;
+}
+
+.main__adress {
+    margin-top: 35px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.main__number {
+    font-size: 29px;
+    text-align: center;
+}
+
+.main__number:hover {
+    color: #CE242B;
+    text-decoration: underline; 
+   }
+
+.main__title {
+
+    text-align: center;
+    font-size: 46px;
+}
+
+.main__item {
+    margin-top: 10px;
+    width: 30%;
+    text-align: center;
+
+}
+
+.main__name {
+    margin: 0;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.main__phone {
+    font-size: 25px;
+    margin-top: 5px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main__position {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.main__people {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.main__img {
+    width: 100%;
+}
+
+.main__adress {
+    font-style: normal;
+}
+
+.main__number-list {
+    margin: 0;
+    margin-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+    list-style: none;
+}
+
+.main__number {
+    margin-top: 10px;
+}
+
+.main {
+    padding: 0.1px 70px;
+    padding-bottom: 50px;
+}
+
+.main__title {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.main__adress {
+
+    font-style: normal;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.main__map {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 1040px;
+}
