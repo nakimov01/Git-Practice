@@ -1,0 +1,79 @@
+@import "fonts/fonts.css";
+@import "vars.css";
+body {
+    margin: 0;
+    background-color: var(--bg-color);
+font-family: "Raleway-reg";
+}
+
+.example::-webkit-scrollbar {
+  display: none;
+}
+ 
+/* Скрываем scrollbar для IE, Edge и Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE и Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.main__wrapper {
+    padding: 0.1px 70px;
+}
+
+.main__link {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 7px 20px;
+}
+
+.main__back {
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: rgb(155, 149, 121);
+    transition: 0.2s all linear;
+}
+
+.main__back:hover {
+    background-color: rgb(91, 87, 71);
+}
+
+.main__table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.main__item {
+    margin: 0 auto;
+    width: 1500px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.main__text {
+    width: 150%;
+    text-align: justify;
+}
+
+.main__name {
+    font-size: 40px;
+}
+
+.main__descr {
+    font-size: 20px;
+}
+
+.main__img {
+    width: 90%;
+}
