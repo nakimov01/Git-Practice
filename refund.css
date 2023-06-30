@@ -1,0 +1,18 @@
+@import "fonts/fonts.css";
+@import "vars.css";
+
+body {
+    margin: 0;
+    background-color: var(--bg-color);
+    padding: 0 150px;
+    font-size: 30px;
+    font-family: "Raleway-reg";
+}
+
+.content__title {
+    text-align: center;
+}
+
+.content__item {
+    margin-top: 20px;
+}

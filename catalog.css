@@ -1,0 +1,49 @@
+@import "fonts/fonts.css";
+@import "vars.css";
+
+body {
+    margin: 0;
+    background-color: var(--bg-color);
+}
+
+
+
+.catalog {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    width: 85vw;
+    margin: 0 auto;
+    row-gap: 20px;
+    column-gap: 200px;
+    padding-top: 70px;
+}
+
+.catalog__item {
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    font-family: "Raleway-reg";
+    display: flex;
+    padding: 10px 40px;
+}
+
+.catalog__item:hover {
+    border: 1px solid var(--logo-color);
+    box-shadow: 0px 0px 10px 1px rgba(153, 150, 150, 0.526);
+}
+
+.catalog__img {
+    width: 260px;
+}
+
+.catalog__name {
+    margin-left: 30px;
+    font-size: 50px;
+}
+
+.catalog::webkit-scrollbar{
+width: 0;
+}
+::-webkit-scrolbar{
+width: 0;
+}
