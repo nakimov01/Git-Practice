@@ -1,0 +1,23 @@
+.main__wrapper {
+    padding-bottom: 40px;
+}
+
+.main__title {
+    text-align: center;
+    font-family: "Cormorant SC";
+    font-size: 46px;
+    margin-bottom: 0;
+}
+
+.main__item {
+    padding: 40px;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 1px solid #6E4836;
+}
+
+.main__descr {
+    text-align: justify;
+    font-size: 24px;
+}
